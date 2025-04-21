@@ -1,0 +1,212 @@
+﻿<Project xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <ProductVersion>16.0.20820.0</ProductVersion>
+  <SchemaVersion>9.0.2.10</SchemaVersion>
+  <State>$base64$PFNvdXJjZUNvbnRyb2xJbmZvIHhtbG5zOnhzZD0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zOmRkbDI9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDAzL2VuZ2luZS8yIiB4bWxuczpkZGwyXzI9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDAzL2VuZ2luZS8yLzIiIHhtbG5zOmRkbDEwMF8xMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDA4L2VuZ2luZS8xMDAvMTAwIiB4bWxuczpkZGwyMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEwL2VuZ2luZS8yMDAiIHhtbG5zOmRkbDIwMF8yMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEwL2VuZ2luZS8yMDAvMjAwIiB4bWxuczpkZGwzMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDExL2VuZ2luZS8zMDAiIHhtbG5zOmRkbDMwMF8zMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDExL2VuZ2luZS8zMDAvMzAwIiB4bWxuczpkZGw0MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEyL2VuZ2luZS80MDAiIHhtbG5zOmRkbDQwMF80MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEyL2VuZ2luZS80MDAvNDAwIiB4bWxuczpkZGw1MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEzL2VuZ2luZS81MDAiIHhtbG5zOmRkbDUwMF81MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEzL2VuZ2luZS81MDAvNTAwIiB4bWxuczpkd2Q9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vRGF0YVdhcmVob3VzZS9EZXNpZ25lci8xLjAiPg0KICA8RW5hYmxlZD5mYWxzZTwvRW5hYmxlZD4NCiAgPFByb2plY3ROYW1lPjwvUHJvamVjdE5hbWU+DQogIDxBdXhQYXRoPjwvQXV4UGF0aD4NCiAgPExvY2FsUGF0aD48L0xvY2FsUGF0aD4NCiAgPFByb3ZpZGVyPjwvUHJvdmlkZXI+DQo8L1NvdXJjZUNvbnRyb2xJbmZvPg==</State>
+  <Database>
+    <Name>MultidimensionalProject1.database</Name>
+    <FullPath>MultidimensionalProject1.database</FullPath>
+  </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>DWDM DW.cube</Name>
+      <FullPath>DWDM DW.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>DWDM DW.partitions</Name>
+          <FullPath>DWDM DW.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Cube_3D_NoCustomer.cube</Name>
+      <FullPath>Cube_3D_NoCustomer.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Cube_3D_NoCustomer.partitions</Name>
+          <FullPath>Cube_3D_NoCustomer.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Cube_3D_NoItems.cube</Name>
+      <FullPath>Cube_3D_NoItems.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Cube_3D_NoItems.partitions</Name>
+          <FullPath>Cube_3D_NoItems.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Cube_3D_NoTime.cube</Name>
+      <FullPath>Cube_3D_NoTime.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Cube_3D_NoTime.partitions</Name>
+          <FullPath>Cube_3D_NoTime.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Cube_3D_NoStore.cube</Name>
+      <FullPath>Cube_3D_NoStore.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Cube_3D_NoStore.partitions</Name>
+          <FullPath>Cube_3D_NoStore.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Cube_2D_NoCustomerItem.cube</Name>
+      <FullPath>Cube_2D_NoCustomerItem.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Cube_2D_NoCustomerItem.partitions</Name>
+          <FullPath>Cube_2D_NoCustomerItem.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Cube_2D_NoTimeStore.cube</Name>
+      <FullPath>Cube_2D_NoTimeStore.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Cube_2D_NoTimeStore.partitions</Name>
+          <FullPath>Cube_2D_NoTimeStore.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Cube_2D_NoStoreCustomer.cube</Name>
+      <FullPath>Cube_2D_NoStoreCustomer.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Cube_2D_NoStoreCustomer.partitions</Name>
+          <FullPath>Cube_2D_NoStoreCustomer.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Cube_2D_NoTimeItem.cube</Name>
+      <FullPath>Cube_2D_NoTimeItem.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Cube_2D_NoTimeItem.partitions</Name>
+          <FullPath>Cube_2D_NoTimeItem.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Cube_2D_NoTimeCustomer.cube</Name>
+      <FullPath>Cube_2D_NoTimeCustomer.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Cube_2D_NoTimeCustomer.partitions</Name>
+          <FullPath>Cube_2D_NoTimeCustomer.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Cube_2D_NoItemStore.cube</Name>
+      <FullPath>Cube_2D_NoItemStore.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Cube_2D_NoItemStore.partitions</Name>
+          <FullPath>Cube_2D_NoItemStore.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Cube_1D_Time.cube</Name>
+      <FullPath>Cube_1D_Time.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Cube_1D_Time.partitions</Name>
+          <FullPath>Cube_1D_Time.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Cube_1D_Store.cube</Name>
+      <FullPath>Cube_1D_Store.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Cube_1D_Store.partitions</Name>
+          <FullPath>Cube_1D_Store.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Cube_1D_Item.cube</Name>
+      <FullPath>Cube_1D_Item.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Cube_1D_Item.partitions</Name>
+          <FullPath>Cube_1D_Item.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Cube_1D_Customer.cube</Name>
+      <FullPath>Cube_1D_Customer.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Cube_1D_Customer.partitions</Name>
+          <FullPath>Cube_1D_Customer.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
+  <Dimensions>
+    <ProjectItem>
+      <Name>Dim Time.dim</Name>
+      <FullPath>Dim Time.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Store.dim</Name>
+      <FullPath>Dim Store.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Customer.dim</Name>
+      <FullPath>Dim Customer.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Item.dim</Name>
+      <FullPath>Dim Item.dim</FullPath>
+    </ProjectItem>
+  </Dimensions>
+  <DataSources>
+    <ProjectItem>
+      <Name>DWDM DW.ds</Name>
+      <FullPath>DWDM DW.ds</FullPath>
+    </ProjectItem>
+  </DataSources>
+  <DataSourceViews>
+    <ProjectItem>
+      <Name>DWDM DW.dsv</Name>
+      <FullPath>DWDM DW.dsv</FullPath>
+    </ProjectItem>
+  </DataSourceViews>
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <ConnectionMappings>
+          <ConfigurationSetting>
+            <Id>DWDM DW</Id>
+            <Name>DWDM DW</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=LAPTOP-HRD7N2KD\MSSQLSERVERWH;Integrated Security=SSPI;Initial Catalog=DWDM_DW</Value>
+          </ConfigurationSetting>
+        </ConnectionMappings>
+        <ConnectionSecurityMappings>
+          <ConfigurationSetting>
+            <Id>DWDM DW</Id>
+            <Name>DWDM DW</Name>
+            <Value xsi:type="xsd:int">0</Value>
+          </ConfigurationSetting>
+        </ConnectionSecurityMappings>
+      </Options>
+    </Configuration>
+  </Configurations>
+</Project>

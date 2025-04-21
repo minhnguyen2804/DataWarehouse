@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "DataWarehouse", "DataWarehouse\DataWarehouse.dwproj", "{3E25426F-B817-45A9-A5A3-904264D903CD}"
+EndProject
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "MultidimensionalProject1", "MultidimensionalProject1\MultidimensionalProject1.dwproj", "{15AF06F0-FA6D-4B2A-B9A8-A99CA87A60DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E25426F-B817-45A9-A5A3-904264D903CD}.Development|Default.ActiveCfg = Development
+		{3E25426F-B817-45A9-A5A3-904264D903CD}.Development|Default.Build.0 = Development
+		{3E25426F-B817-45A9-A5A3-904264D903CD}.Development|Default.Deploy.0 = Development
+		{15AF06F0-FA6D-4B2A-B9A8-A99CA87A60DB}.Development|Default.ActiveCfg = Development
+		{15AF06F0-FA6D-4B2A-B9A8-A99CA87A60DB}.Development|Default.Build.0 = Development
+		{15AF06F0-FA6D-4B2A-B9A8-A99CA87A60DB}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F4E34DE-4B99-4915-B33C-B7B3D1C95954}
+	EndGlobalSection
+EndGlobal

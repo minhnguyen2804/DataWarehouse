@@ -1,0 +1,377 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="70041138-b13a-49be-99f1-2bd6bebb07e8" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Cube_3D_NoStore</ID>
+  <Name>Cube_3D_NoStore</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="b6b66221-8601-44dc-ae7c-d5ade03ff7f3">
+      <ID>Dim Item</ID>
+      <Name>Dim Item</Name>
+      <DimensionID>Dim Item</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="f3ca31a1-c7c5-4c71-9367-59eb982e3995">
+          <AttributeID>Ma Mat Hang</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7dde1436-1a23-4467-9f5b-59a54cd5a1c7">
+          <AttributeID>Mo Ta</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="564c85ae-9e7f-4c32-9f5d-1be72171ab36">
+      <ID>Dim Customer</ID>
+      <Name>Dim Customer</Name>
+      <DimensionID>Dim Customer</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="4eaec79b-68f5-4eff-a68a-6e856c44aa8e">
+          <AttributeID>Ma Khach Hang</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="180b3145-4f01-4fdd-a60a-3c19bd2bdc69">
+          <AttributeID>Ten Khach Hang</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f364f92b-6a4a-48d8-a4bb-52958011e3fb">
+          <AttributeID>Buu Dien</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="eb3276b9-a3c3-420d-9e95-53be444a2ec0">
+          <AttributeID>Du Lich</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="414630d0-8401-45d4-a0c7-9d5e578a1c4d">
+      <ID>Dim Time</ID>
+      <Name>Dim Time</Name>
+      <DimensionID>Dim Time</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="1a0abae2-8a97-4851-b817-24a42d0ff4d4">
+          <AttributeID>Ma Thoi Gian</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c2dca965-39a3-4c43-b2bf-ed94524b2005">
+          <AttributeID>Thang</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b70ef0d6-83ea-4ae5-a28d-8a3cc7381175">
+          <AttributeID>Quy</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0a11bb17-0636-4e12-94ec-0638367e1427">
+          <AttributeID>Nam</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="d17700d0-c608-4599-a368-200877c371e7">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="dae70099-f825-4b59-937c-0db6c475f970">
+      <ID>Fact Sales</ID>
+      <Name>Fact Sales</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="13b611b2-0459-445d-9556-b6dcb8bf37dd">
+          <ID>So Luong Ban</ID>
+          <Name>So Luong Ban</Name>
+          <Source dwd:design-time-name="ed85488d-5451-449d-97f2-bb5523c51d32">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="3f101d70-e785-4eec-8151-0033d1e97111">
+              <TableID>dbo_Fact_Sales</TableID>
+              <ColumnID>SoLuongBan</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="d7d35c25-5d9d-4845-a82a-7c766b1ddfa7">
+          <ID>Doanh Thu</ID>
+          <Name>Doanh Thu</Name>
+          <Source dwd:design-time-name="7a4a8932-7a4d-4fa3-b8d4-45bfaad0a8b3">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="63519b63-d513-4552-9dfb-f1ebd8ceb557">
+              <TableID>dbo_Fact_Sales</TableID>
+              <ColumnID>DoanhThu</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="9cdd540c-0a8f-40d0-98cd-691664a1f0f7">
+          <ID>Fact Sales Count</ID>
+          <Name>Fact Sales Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="e962a542-db2f-4b2b-911d-92b3de6d3841">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="2dd1b8e2-39be-4de2-a7ae-4ac32c80eb85">
+              <TableID>dbo_Fact_Sales</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="d2f9819f-6626-4a8c-94eb-c42eea278808">
+          <CubeDimensionID>Dim Item</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="370f43cc-ecc1-4bac-aec0-fd38756628b6">
+              <AttributeID>Ma Mat Hang</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="8b8d18cb-d27c-4a48-bc48-95db73ebc9ff">
+                  <DataType>WChar</DataType>
+                  <DataSize>6</DataSize>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="98edd51a-d9be-4858-81e7-69b8f1634c39">
+                    <TableID>dbo_Fact_Sales</TableID>
+                    <ColumnID>MaMatHang</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="a3ef849f-f3b4-452c-ae1b-e01f7bc9cc37">
+          <CubeDimensionID>Dim Customer</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="393c5251-d31f-4db8-bd45-58ebef62b8ea">
+              <AttributeID>Ma Khach Hang</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="d797988e-aeeb-4e78-b935-8ec7f95a1fa0">
+                  <DataType>WChar</DataType>
+                  <DataSize>6</DataSize>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="48a395b0-90f8-4e1f-b403-277ee46a4938">
+                    <TableID>dbo_Fact_Sales</TableID>
+                    <ColumnID>MaKhachHang</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="84ec98f5-80d3-433f-b80c-9c753097271f">
+          <CubeDimensionID>Dim Time</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="ba6ba41e-3a28-4b74-bf9a-0c6199186a7b">
+              <AttributeID>Ma Thoi Gian</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="6e22760e-81b7-443f-8db7-0eef91b22d51">
+                  <DataType>WChar</DataType>
+                  <DataSize>6</DataSize>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b4f5891d-9da7-48a8-bc2a-9715d58d86c1">
+                    <TableID>dbo_Fact_Sales</TableID>
+                    <ColumnID>MaThoiGian</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="0d37e749-1786-4bb0-a594-9435f86f69a3">
+      <ID>Dim Time</ID>
+      <Name>Dim Time</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="f49b9c59-a18f-4e19-a9b1-2853ca138613">
+          <ID>Thang</ID>
+          <Name>Thang</Name>
+          <Source dwd:design-time-name="df027d5c-b67d-42dc-91c2-fd313218dd05">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="b36fce60-8d93-450c-b134-e6030d6fab42">
+              <TableID>dbo_Dim_Time</TableID>
+              <ColumnID>Thang</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="d7a00ec9-717d-4e79-82dc-1ebfc897a5dd">
+          <ID>Nam</ID>
+          <Name>Nam</Name>
+          <Source dwd:design-time-name="32abd214-a496-4780-bd4b-7dbef92c9c90">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="ad7653c0-cddc-46ab-80a4-a976a8cc4501">
+              <TableID>dbo_Dim_Time</TableID>
+              <ColumnID>Nam</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="36d7424c-af99-45b5-9089-46d7655d2ebc">
+          <ID>Dim Time Count</ID>
+          <Name>Dim Time Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="0511d3b2-7e7c-4580-9624-e6575e48f186">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="72a808ac-db12-4512-9428-d09d5a42c59e">
+              <TableID>dbo_Dim_Time</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="8602c523-5356-4737-a575-f9038f857ad0">
+          <CubeDimensionID>Dim Time</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="7995d1de-2c16-4e70-8715-1be67d565f18">
+              <AttributeID>Ma Thoi Gian</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="70e70592-6d18-4b1f-80ed-b90d95c466bd">
+                  <DataType>WChar</DataType>
+                  <DataSize>6</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="aca7f669-00d7-455e-9e16-4b893392bb11">
+                    <TableID>dbo_Dim_Time</TableID>
+                    <ColumnID>MaThoiGian</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="2dcb0ab7-b49e-46fd-90ef-320bb4d376cd">
+      <ID>Dim Item</ID>
+      <Name>Dim Item</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="4097e209-3387-4911-8c49-ec4ff2e51fb2">
+          <ID>Dim Item Count</ID>
+          <Name>Dim Item Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="531e7787-2351-4a85-a14a-84a3667303e7">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="da0b5871-d38a-4e2a-b09d-d8350e783775">
+              <TableID>dbo_Dim_Item</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="29c624e1-e347-473f-a164-26a12540fcd5">
+          <CubeDimensionID>Dim Item</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="f606d280-365f-4a4a-9c8a-0f3501f2651d">
+              <AttributeID>Ma Mat Hang</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="97d064bd-dbd4-4c55-aeb5-2f49cca48458">
+                  <DataType>WChar</DataType>
+                  <DataSize>6</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="dc3a25cf-12bc-413a-b5f5-3610e3e0eec9">
+                    <TableID>dbo_Dim_Item</TableID>
+                    <ColumnID>MaMatHang</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="1591084b-af9e-421d-8a5b-b63c5a8f257a">
+      <ID>Dim Customer</ID>
+      <Name>Dim Customer</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="42a109b2-4b52-4fef-aea2-f7b2fdd5737f">
+          <ID>Dim Customer Count</ID>
+          <Name>Dim Customer Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="cf28f5f9-8cb3-4403-92a8-7f5a62e6f0c8">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="f44274b8-ebdf-447c-b467-a4b7e445d1d7">
+              <TableID>dbo_Dim_Customer</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="fe809fb6-193c-4af7-9c68-afd0cc05b854">
+          <CubeDimensionID>Dim Customer</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="07662a52-14cc-4ea2-8590-e214cd71ad14">
+              <AttributeID>Ma Khach Hang</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="2438ad93-fa20-4374-9ffb-80ed7816607c">
+                  <DataType>WChar</DataType>
+                  <DataSize>6</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="bbfb6dc1-3b9c-4f1b-aae0-2d4ae6d8fefa">
+                    <TableID>dbo_Dim_Customer</TableID>
+                    <ColumnID>MaKhachHang</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="d4442175-ce9b-4413-a29f-0299d78860c9">
+    <DataSourceViewID>DWDM DW</DataSourceViewID>
+  </Source>
+</Cube>
